@@ -1,0 +1,3 @@
+alias:: lijst, list data type
+
+- all about lists...

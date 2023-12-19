@@ -106,4 +106,5 @@ alias:: lussen, lus, loops, iteratie, iteration
 - **Typische Fouten**
 	- Als je de stop-conditie niet zet of het increment vergeet, kom je soms in een **oneindige lus** terecht. Je computer gaat dan voor alle tijden met die berekening bezig blijven.
 	- ![image.jpg](../assets/infinite_loop.jpg)
-	-
+	- Zie ook: [[error traceback]]
+-
