@@ -1,0 +1,4 @@
+- is de gramattica, of taalregels, van de programmeertaal.
+- Houdt dus ook in wanneer je comma's, haakjes, of spaties moet zetten (of niet).
+- https://nl.wikipedia.org/wiki/Syntaxis_(informatica)
+-

@@ -1,8 +1,8 @@
-alias:: flow
+alias:: flow, controlestroom
 
 - **TL;DR**
-	- De computer verwerkt een programma van boven naar beneden, van binnen haakjes naar buiten, en van links naar rechts.
-	- Er zijn uitzonderingen, bv.: [[lussen]], [[voorwaarden]] , [[functies]] en [[klassen]].
+	- De computer verwerkt een programma van boven naar beneden, van binnen haakjes naar buiten, en van links naar rechts. Dit noemen we de "flow".
+	- Er zijn uitzonderingen, bv.: [[lussen]], [[voorwaarden]] , [[functies]] en [[klassen]]. Met deze kan je de "flow" controleren, we spreken dan van control flow.
 -
 - **Pannekoeken**
 	- ![image.png](../assets/pannekoeken.jpg)
