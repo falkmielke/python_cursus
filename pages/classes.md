@@ -1,0 +1,1 @@
+alias:: klassen, klas, class
