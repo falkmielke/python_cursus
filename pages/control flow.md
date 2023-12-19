@@ -5,7 +5,7 @@ alias:: flow, controlestroom
 	- Er zijn uitzonderingen, bv.: [[lussen]], [[voorwaarden]] , [[functies]] en [[klassen]]. Met deze kan je de "flow" controleren, we spreken dan van control flow.
 -
 - **Pannekoeken**
-	- ![image.png](../assets/pannekoeken.jpg)
+	- ![image.png](../assets/pannekoeken.jpg){:width 400}
 	- Je wilt pannekoeken eten, en volgt het recept vanuit een kookboek (hier: "Koken voor elke dag", Manteau, 2016).
 		- Meng de bloem met het bicarbonaat.
 		- Klop de melk met de boter, eieren en honing.
@@ -38,3 +38,6 @@ alias:: flow, controlestroom
 	- [[loops]]
 	- [[conditionals]]
 -
+- Control Flow is de verkeersorganisatie van jouw programma! Let er goed op mee, en "let it flow!"
+- ![image.png](../assets/chuttersnap-GH5ZA-8adZs-unsplash.jpg){:width 400} 
+  Photo by <a href="https://unsplash.com/@chuttersnap?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">CHUTTERSNAP</a> on <a href="https://unsplash.com/photos/aerial-view-of-cars-passing-on-road-near-buildings-GH5ZA-8adZs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>

@@ -1,0 +1,1 @@
+- https://nl.wikipedia.org/wiki/Functioneel_programmeren

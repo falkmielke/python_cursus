@@ -66,7 +66,7 @@ alias:: lussen, lus, loops, iteratie, iteration
 	-
 	- Vindt jij erin de iterator, de begin- en stop-conditie, en het increment terug?
 	- Let goed op de [[syntaxis]] van dit stukje code:
-		- het blokje begint met `while <conditie>:`; de conditie moet een [[boolean]] of waarheidswaarde uitgeven.
+		- het blokje begint met `while <conditie>:`; de conditie moet een [[data types/boolean]] of waarheidswaarde uitgeven.
 		- de "increment" is hier een "decrement": we gaan aftellen zolang er nog lepels beslag in de kom zitten.
 		- De beginsituatie en het increment zitten er niet mee in de lijn met `while`, maar zijn apart gedefineerd.
 		- Zoals altijd in python is de [[inschuiving]] belangrijk voor de computer om te weten waar een blok code eindigd. Noot: de *lus* eindigd als het beslag op is. De code eindigt naar lijn 12: `Opeten()` (maar die blok wordt herhaald).

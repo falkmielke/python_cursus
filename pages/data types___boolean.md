@@ -1,4 +1,6 @@
-- datatype die een **waarheidswaarde** onthoudt
+alias:: boolean, booleans
+
+- [[datatype]] die een **waarheidswaarde** onthoudt
 - in python: `True` (waar) en `False` (fout)
 - opgeslaan in de computer als een bit van `0` of `1`
 - verbindende operatoren:

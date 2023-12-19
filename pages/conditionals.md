@@ -3,7 +3,7 @@ alias:: conditional, voorwaarden
 - ![image.jpg](../assets/conditional.jpg)
 - **TL;DR**
 	- Met een conditional kan je de [[flow]] vertakken of splitsen, afhankelijk van een voorwaarde.
-	- Voorwaardes zijn [[boolean]].
+	- Voorwaardes zijn [[data types/boolean]].
 	- In python gebruiken we `if ... else ...`, maar andere constructies zijn mogelijk.
 -
 - **Motivatie**
