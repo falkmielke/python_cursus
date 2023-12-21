@@ -1,13 +1,14 @@
-alias:: functies, functie, function
+alias:: functies, functie, function, method, methods, methode
 
 - **TL;DR**
 	- Functies splitsen je programmacode op in kleine, hergebruikbare eenheiden. Dit is enorm handig.
 	- Good practice: splits je programma altijd zo klein mogelijk op in zinvolle, begrijpelijke werkpakjes.
+	- Gebruik duidelijke en zinvolle functie-namen, gebruik uitvoerlijke [[documentatie]].
 -
 - **Motivering**
 	- ![image.jpg](../assets/waschmaschine.jpg){:width 600}
-	- Dit is mijn wasmachine. Die heeft een draaiknop met verschillende **functies**. Ik kan er bijvoorbeeld "Katoen/Eco" kiezen en de machine weet dan misschien dat ze alternerend drie keer moet spoelen en centrifugeren.
-	- "Speed" is een andere functie: hier gaat ze misschien maar één keer centrifugeren en spoelen.
+	- Dit is een wasmachine. Die heeft een draaiknop met verschillende **functies**. Je kan er bijvoorbeeld "Katoen/Eco" kiezen en de machine weet dan misschien dat ze alternerend drie keer moet spoelen en centrifugeren.
+	- "Speed" is geen "snelheid", maar een andere functie: hier gaat ze misschien maar één keer centrifugeren en spoelen.
 	- Op het einde van elk van die programma's komt er een "stop", en de machine geeft meer of minder propere kleren terug. (Noot: ik kan die kleren van buiten niet aanraken terwijl de was bezig is, zie [[scope]].)
 	- "Spoelen", "Centrifugeren", "Stop" enz. zijn voor zich ook functies; sommige daarvan hebben parameters die ik mag kiezen (bv. de snelheid van het centrifugeren, de temperatuur). "Krimpen" is geen functie van de machine, maar een ongewenst effect van mijn keuzes; maar het kan gebeuren (zie [[errors]]).
 -
@@ -38,6 +39,7 @@ alias:: functies, functie, function
 	  print (variabele) # geeft een fout
 	  ```
 	- **Return:** wil je dus iets van binnen de functie ook buiten gebruiken, moet de functie het achteraf teruggeven met een `return`. Je kan één of meerdere variabelen teruggeven. Let op: als je kiest om niets terug te geven door `return` weg te laten, dan gaat de functie een [[None]] terug geven.
+	- Een synoniem voor "functie" is **"method"**.
 -
 - **Trucjes met Functies**
 	- Als je de functienaam heen- en weergeeft, zonder de haakjes, dan kan je de instructies dus meegeven en ergens anders of later gebruiken.

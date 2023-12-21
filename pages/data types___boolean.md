@@ -1,4 +1,4 @@
-alias:: boolean, booleans
+alias:: boolean, booleans, waarheidswaarde
 
 - [[datatype]] die een **waarheidswaarde** onthoudt
 - in python: `True` (waar) en `False` (fout)
