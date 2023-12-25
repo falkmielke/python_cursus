@@ -1,4 +1,5 @@
 alias:: loop comprehension, list comprehension, dict comprehension, comprehension
+tags:: uitbreiding
 
 - Je kan de "no-index syntax" van een [["for"-loop]] nog een stukje verder brengen: door het werken met een lijst kan je het binnen één lijn omzetten.
 - Voorbeeld: je hebt een lijst met namen en wilt er alleen maar de voornamen van hebben.

@@ -1,3 +1,5 @@
+tags:: uitbreiding
+
 - Lambda-functies zijn een manier om heel korte [[functies]] in één lijn te schrijven.
 - Bijvoorbeeld:
   ```

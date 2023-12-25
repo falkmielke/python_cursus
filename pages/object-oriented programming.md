@@ -1,4 +1,5 @@
 alias:: OOP, object-oriented, objectgeoriënteerd programmeren
+tags:: uitbreiding
 
 - OOP is een programmeerstijl die de focus legt op het aanmaken van eigen datatypes, of [[klassen]].
 - Motivering: zie [[datatypen]]
@@ -29,5 +30,7 @@ alias:: OOP, object-oriented, objectgeoriënteerd programmeren
 		- **abstraction**
 		- **interfaces**
 		- **polymorphism**
-		- ...
+		- **(operator) overloading**
 	- dit zijn concepten voor gevorderden buiten het kader van onze cursus. Maar laat je daarvan niet afschrikken!
+-
+- OOP en [FP](functional programming) zijn complementair, je mag ze allebei gebruiken!

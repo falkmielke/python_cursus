@@ -34,9 +34,11 @@ alias:: flow, controlestroom
 	- Er zijn uitzonderingen, waar de computer een commando niet direct uitvoerd, of een commando herhaald uitvoerd. Dit noemen we dan "control flow".
 -
 - **Control Flow**
-	- Wij gaan hier beginnen met twee manieren om de uitvoeringsvolgorde van een programma aan te passen: loops (lusjes) en conditionals (voorwaarden). Later gaan we ook nog zien hoe we een programma in [[functions]] en [[classes]] structureren.
-	- [[loops]]
-	- [[conditionals]]
+	- Wij gaan hier beginnen met twee manieren om de uitvoeringsvolgorde van een programma aan te passen: loops (lusjes) en conditionals (voorwaarden).
+		- [[loops]]
+		- [[conditionals]]
+	- Later gaan we ook nog zien hoe we een programma in [[functions]] en [[classes]] structureren.
+	- "parallel computing" is het "tegelijkertijd" uitvoeren van programmadelen; voor sommige toepassingen is dit enorm handig.
 -
 - **Onthouden**
 	- Control Flow is de verkeersorganisatie van jouw programma! Let er goed op mee, en "let it flow!"
