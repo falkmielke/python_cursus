@@ -1,6 +1,0 @@
-- `None` is niets.
-- `None` is niet niets.
-- `None` is een zogenoemde nul-pointer, een wijzer die naar niets toewijst.
-- Dit is heel nuttig, want het spaart geheugen.
-- Vergeet niet dat `None` altijd met een hoofdletter begint.
-- En dat de operatie `iets == None` niet betrouwbaar is: gebruik **altijd** `iets is None` om een waar-fout-vergelijking met `None` te maken.

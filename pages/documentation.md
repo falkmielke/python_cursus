@@ -14,3 +14,4 @@ alias:: commentaren, comment, commentaar, documentatie
       "noop", voor "no operation" of "geen operatie", dus het doet niets.
   """
   ```
+- De derde manier noemen we ook een "docstring". Docstrings zijn oeral goed om te hebben.

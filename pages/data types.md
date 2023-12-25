@@ -32,6 +32,8 @@ alias:: datatypes, data type, datatype, datatypen, gegevenstypen
 		- [[string-datatypes]]
 		- [[lijst]]
 		- [[dictionary]]
+		- [[tuple]]
+		- [[None]]
 	- De type van een [[variabele]] kan je vragen met de functie `type()`:
 	  ```python
 	  a = 1
@@ -48,8 +50,8 @@ alias:: datatypes, data type, datatype, datatypen, gegevenstypen
 	  zin = "Dit "+"is "+"een "+"onzin. "
 	  print (zin)
 	  ```
-	- TODO call by reference, call by value
-	- TODO typische fouten [[exception handling]]
+	- Een object kan "call by reference" of "call by value" zijn; dit beschrijft of/hoe het verandert als zijn waarde binnen een functie aangepast wordt. Kan voor iets lastigere [[bugs]] zorgen.
+	- typische fouten: zie [[exception handling]]
 -
 - **Eigen Datatypes**
 	- zie [[objectgeoriënteerd programmeren]] .

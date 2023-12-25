@@ -25,12 +25,13 @@ alias:: functies, functie, function, method, methods, methode
 	  SayHello("teacher")
 	  ```
 	- **Name:** elke functie heeft een naam, zoals elke [[variabele]] die we bijhouden een naam heeft. Fun fact: functies zijn ook maar wijzers naar een geheugenplaats (waar de functie-instructies opgeslaan zijn).
-	- **Signature:** functies hebben ook een zogenoemde signatuur. Dit omvat naast de naam ook alle [[argumenten]] die de functie /binnen krijgt/ en hun standaardwaardes. Voorbeeld:
+	- **Signature:** functies hebben ook een zogenoemde signatuur. Dit omvat naast de naam ook alle [[argumenten]] die de functie *binnen krijgt* en hun standaardwaardes. Voorbeeld:
 	  ```python
 	  def SayHello(recipient: str, message: str = None, repetities: int = 1):
 	  	for rept in range(repetities):
 	  		print(f"Hello, {recipient}! {message}")
 	  ```
+	  De expliciete benoeming van de [[datatypen]] in de signatuur dient ter documentatie en gaat geen [[foutmelding]] veroorzaken.
 	- **Scope:** Elke functie brengt haar eigen [[scope]] mee: variabelen die binnen de functie gedefinieerd zijn zijn alleen maar binnen die functie geldig. Bijvoorbeeld:
 	  ```python
 	  def Aanmaken(waarde):
@@ -39,7 +40,7 @@ alias:: functies, functie, function, method, methods, methode
 	  print (variabele) # geeft een fout
 	  ```
 	- **Return:** wil je dus iets van binnen de functie ook buiten gebruiken, moet de functie het achteraf teruggeven met een `return`. Je kan één of meerdere variabelen teruggeven. Let op: als je kiest om niets terug te geven door `return` weg te laten, dan gaat de functie een [[None]] terug geven.
-	- Een synoniem voor "functie" is **"method"**.
+	- Een synoniem voor "functie" is **"method"**, of methode. We spreken van methode vaak in de context van [[objectgeoriënteerd programmeren]], waar de methodes van een [[klas]] voornamelijk met de klas-variabelen bezig zijn.
 -
 - **Trucjes met Functies**
 	- Als je de functienaam heen- en weergeeft, zonder de haakjes, dan kan je de instructies dus meegeven en ergens anders of later gebruiken.
