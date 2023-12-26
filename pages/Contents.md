@@ -19,7 +19,7 @@ alias:: inhoud
 - [[functions]]
 	- [[arguments]]
 	- [[scope]]
-- verder:
+- misc:
 	- [[error traceback]]
 	- [[exception handling]]
 	- [[documentation]]

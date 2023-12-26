@@ -46,7 +46,7 @@ alias:: conditional, voorwaarden
 	  # en toepassen:
 	  Keuzes.get('zoet', lambda pk: Topping(pk, None))(pannenkoek)
 	  ```
-	- WAARSCHUWING: dit voorbeeld gebruikt [[lambda-functies]], de functie `dict.get()` van [[dict]]s en twee haakjes achter elkaar (aaneenschakeling van functie-uitkomsten). Dit is iets voor gevoorderden; wanhoop niet als dit niet ineens/nog niet duidelijk is!
+	- WAARSCHUWING: dit voorbeeld gebruikt [[anonymous functions]], de functie `dict.get()` van [[dict]]s en twee haakjes achter elkaar (aaneenschakeling van functie-uitkomsten). Dit is iets voor gevoorderden; wanhoop niet als dit niet ineens/nog niet duidelijk is!
 	-
 - **Typische Fouten**
 	- Met afstand de meeste fouten met conditionals gebeuren door een foutieve voorwaarde. Om te zien of je boolean correkt zit, print hem gewoon eventjes af voordat of nadat je in de conditional gaat.

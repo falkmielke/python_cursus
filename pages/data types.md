@@ -53,7 +53,7 @@ alias:: datatypes, data type, datatype, datatypen, gegevenstypen
 	  zin = "Dit "+"is "+"een "+"onzin. "
 	  print (zin)
 	  ```
-	- Een object kan "call by reference" of "call by value" zijn; dit beschrijft of/hoe het verandert als zijn waarde binnen een functie aangepast wordt. Kan voor iets lastigere [[bugs]] zorgen.
+	- Een object kan "call by reference" of "call by value" zijn, "mutable" of "immutable" (on/veranderlijk); dit beschrijft of/hoe het verandert als zijn waarde binnen een functie aangepast wordt. Kan voor iets lastigere [[bugs]] zorgen.
 	- typische fouten: zie [[exception handling]]
 -
 - **Eigen Datatypes**
