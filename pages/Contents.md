@@ -29,3 +29,4 @@ alias:: inhoud
 - [[uitbreiding]]
 	- [[classes]], [[OOP]]
 	- [[functional programming]]
+	- [[version control]]
