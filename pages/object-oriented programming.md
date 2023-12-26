@@ -32,5 +32,6 @@ tags:: uitbreiding
 		- **polymorphism**
 		- **(operator) overloading**
 	- dit zijn concepten voor gevorderden buiten het kader van onze cursus. Maar laat je daarvan niet afschrikken!
+	- ![image.jpg](../assets/inheritance.jpg){:width 256} *(inheritance)*
 -
 - OOP en [FP](functional programming) zijn complementair, je mag ze allebei gebruiken!

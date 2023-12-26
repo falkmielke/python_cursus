@@ -1,8 +1,8 @@
 alias:: bibliotheken, bibliotheek, library
 
-- ![image.jpg](../assets/library.jpg){:width 256}
-- Lang voordat "wikipedia" bestond kenden mensen al een manier om informatie op te zoeken. Ze hebben alles wat ze interessant vonden opgeschreven in meer of minder goed geordende collecties van tekst op papier. Dit noemden onze voorouders "boeken". Sommige boeken hebben ze publiek beschikbaar gemaakt, in archieven die ze "bibliotheek" noemden. Vandaar de naam.
-- In python kan je de code-bibliotheken van andere mensen gebruiken.
+- ![image.jpg](../assets/library.jpg){:width 400}
+- Lang voordat "wikipedia" bestond kenden mensen al een manier om informatie op te zoeken. Ze hebben alles wat ze interessant vonden opgeschreven in meer of minder goed geordende collecties van tekst op papier. Dit noemden onze voorouders "boeken". Sommige boeken hebben ze publiek beschikbaar gemaakt, in archieven die ze "**bibliotheek**" noemden. Van daar de naam.
+- In python kan je gemakkelijk de code-bibliotheken van andere mensen gebruiken.
 - Je gebruikt ervoor het signaalwoord `import`:
   ```python
   import re
@@ -19,3 +19,4 @@ alias:: bibliotheken, bibliotheek, library
 	- `sympy` (symbolische wiskunde)
 	- `openpyxl` (excel import/export)
 	- ...
+-

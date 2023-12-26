@@ -1,7 +1,8 @@
 alias:: variabelen, variabele, variable
 
-- **Variabelen** zijn een manier om data in een programma op te slaan.
-- Beter: alles wat de computer moet memoriseren gaat hij opslaan in zijn geheugen (ofwel: werkgeheugen, of: haarde schrijf). Om dit terug te kunnen vinden moeten we het aan een naam koppelen.
+- ![image.jpg](../assets/variables.jpg){:width 400}
+- Door gebruik van **variabelen** hechten we een betekenis of een inhoud aan symbolen. Variabelen zijn een manier om data in een programma op te slaan en terug te vinden.
+- Achtergrond: alles wat de computer moet memoriseren gaat hij opslaan in zijn geheugen (ofwel: werkgeheugen, of: haarde schrijf). Om dit terug te kunnen vinden moeten we het aan een naam koppelen.
 - Variabelen worden aangemaakt door de variabelennaam te schrijven, gevolgd van een `=`:
   :LOGBOOK:
   CLOCK: [2023-12-25 Mon 12:32:06]

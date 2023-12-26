@@ -1,6 +1,6 @@
 alias:: set
 
-- ![image.jpg](../assets/collection.jpg){:width 128}
+- ![image.jpg](../assets/collection.jpg){:width 200}
 - Een **set** is een ongeordende collectie van unieke variabelen.
 - Je kan een set aanmaken met gekrulde haakjes `{}` of met de functie `set()`.
 - Een goede manier om een lijst met unieke inhoud te krijgen is de conversie tot een `set`:
