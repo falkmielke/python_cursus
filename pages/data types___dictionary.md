@@ -1,6 +1,7 @@
 alias:: dictionary, dictionaries, dict, dicts, woordenboeken, woordenboek
 
-- Een `dict` is een geordende* versameling van paren van sleutels en waarden.
+- ![image.jpg](../assets/dictionary.jpg){:width 256}
+- Een `dict` / **dictionary** is een geordende* versameling van paren van sleutels en waarden. Zoals een woordenboek.
   (* in oudere python-versies was de volgorde in een `dict` nog toevallig.)
 - Je kan een dict aanmaken met de functie `dict(sleutel = waarde, key = value)` of door gekrulde haakjes:
   ```python

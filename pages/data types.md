@@ -33,6 +33,9 @@ alias:: datatypes, data type, datatype, datatypen, gegevenstypen
 		- [[lijst]]
 		- [[dictionary]]
 		- [[tuple]]
+		- [[set]]
+		- [[array]]
+		  id:: 658a9b51-6ab4-4fdf-a9a0-66bea59ac0d6
 		- [[None]]
 	- De type van een [[variabele]] kan je vragen met de functie `type()`:
 	  ```python

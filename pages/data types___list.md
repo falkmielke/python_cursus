@@ -1,6 +1,7 @@
 alias:: lijst, list, list data type
 
-- Een lijst is een geordende, veranderlijke versameling van data.
+- ![image.jpg](../assets/list.jpg){:width 400}
+- Een lijst is een geordende, veranderlijke versameling van gegevens.
 - Ze wordt aangeduidt met de functie `list()` of door rechte haakjes:
   ```python
   mijn_lijst = ["Alice", "Bob", "Charlie", "Doris"]

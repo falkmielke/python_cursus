@@ -1,4 +1,4 @@
-alias:: commentaren, comment, commentaar, documentatie
+alias:: commentaren, comment, commentaar, documentatie, comments
 
 - Schrijf goede commentaren in jouw code! Goed = "to the point", kort, maar voldoend.
 - Commentaren in python zet je op verschillende manieren:

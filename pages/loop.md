@@ -1,6 +1,6 @@
 alias:: lussen, lus, loops, iteratie, iteration
 
-- ![image.jpg](../assets/loop.jpg)
+- ![image.jpg](../assets/realloop.jpg){:width 400}
 -
 - **TL;DR**
 	- We gebruiken twee soorten loops in python: `for ... in ...:` en `while ...:`

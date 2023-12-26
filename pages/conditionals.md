@@ -1,6 +1,6 @@
 alias:: conditional, voorwaarden
 
-- ![image.jpg](../assets/conditional.jpg)
+- ![image.jpg](../assets/conditional.jpg){:width 400}
 - **TL;DR**
 	- Met een conditional kan je de [[flow]] vertakken of splitsen, afhankelijk van een voorwaarde.
 	- Voorwaardes zijn [[boolean]].
