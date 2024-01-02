@@ -6,14 +6,13 @@ tags:: uitbreiding
 - De uitkomst van een functie is deterministisch; het resultaat van de functie gaat met dezelfde data altijd ook hetzelfde zijn (bijvoorbeeld functies uit de wiskunde, zoals `sum()`).
 - Het gebruik van [[anonieme functies]] is ook typisch voor FP.
 - Omvat ook meer ingewikkelde strategien zoals
-	- **first class functions**, **higher order functions**, **pure functions**
-	- **lazy evaluation**
-	- **recursie**
 	- **nested functions**
+	- **first class functions**, **higher order functions**, **pure functions**
+	- **recursion**
 	- **function transformations**
 	- **currying**
 	- **decorators** (python)
-- verder lezen: https://nl.wikipedia.org/wiki/Functioneel_programmeren
+- verder lezen: zie [hier](https://nl.wikipedia.org/wiki/Functioneel_programmeren), een video [hier](https://www.youtube.com/watch?v=4B24vYj_vaI)
 - FP en [[OOP]] zijn complementair, je mag ze allebei gebruiken!
 -
 - **voorbeelden**

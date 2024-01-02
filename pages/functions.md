@@ -27,11 +27,10 @@ alias:: functies, functie, function, method, methods, methode
 	- **Name:** elke functie heeft een naam, zoals elke [[variabele]] die we bijhouden een naam heeft. Fun fact: functies zijn ook maar wijzers naar een geheugenplaats (waar de functie-instructies opgeslaan zijn).
 	- **Signature:** functies hebben ook een zogenoemde signatuur. Dit omvat naast de naam ook alle [[argumenten]] die de functie *binnen krijgt* en hun standaardwaardes. Voorbeeld:
 	  ```python
-	  def SayHello(recipient: str, message: str = None, repetities: int = 1):
+	  def SayHello(recipient, message = None, repetities = 1):
 	  	for rept in range(repetities):
 	  		print(f"Hello, {recipient}! {message}")
 	  ```
-	  De expliciete benoeming van de [[datatypen]] in de signatuur dient ter documentatie en gaat geen [[foutmelding]] veroorzaken.
 	- **Scope:** Elke functie brengt haar eigen [[scope]] mee: variabelen die binnen de functie gedefinieerd zijn zijn alleen maar binnen die functie geldig. Bijvoorbeeld:
 	  ```python
 	  def Aanmaken(waarde):
@@ -43,7 +42,14 @@ alias:: functies, functie, function, method, methods, methode
 	- Een synoniem voor "functie" is **"method"**, of methode. We spreken van methode vaak in de context van [[objectgeoriënteerd programmeren]], waar de methodes van een [[klas]] voornamelijk met de klas-variabelen bezig zijn.
 -
 - **Trucjes met Functies**
-	- Als je de functienaam heen- en weergeeft, zonder de haakjes, dan kan je de instructies dus meegeven en ergens anders of later gebruiken.
+	- Je kan de functie van boven nog veel gedetailleerder [documenteren](documentation):
+	  ```python
+	  def SayHello(recipient: str, message: str = None, repetities: int = 1) -> None:
+	  	for rept in range(repetities):
+	  		print(f"Hello, {recipient}! {message}")
+	  ```
+	  De expliciete benoeming van de [[datatypen]] in de signatuur (met `arg: type`) en de return-datatype (met `-> <type>`) zijn goed voor documentatie en gaat geen [[foutmelding]] veroorzaken.
+	- Als je de functienaam heen- en weergeeft, zonder de haakjes, dan kan je de instructies dus meegeven en ergens anders of later gebruiken. Dit can je ook gebruiken voor [function transformations](FP).
 	  ```python
 	  ## Voorbeeld: berekening met een string-input
 	  

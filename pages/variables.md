@@ -43,23 +43,37 @@ alias:: variabelen, variabele, variable
 - Variabelen hebben een beperkte [[scope]].
 - https://nl.wikipedia.org/wiki/Variabele_(informatica)
 -
-- **Goede Naamgeving!**
-	- Kies altijd betekenisvolle, eenduidige variabelennamen, dit verbeterd de leesbaarheid van uw programma en spaart soms een commentaar.
-	- voorbeeld, vergelijk:
-	  ```python
-	  rho = m/v  # welke v is dit nu?
-	  massadichtheid_kg_m3 = massa_kg / volume_m3
-	  ```
-	- *naamgevingsconventies:*
-		- "Camel Case"
-		  bv. `eenBetekenisvolleVariable`
-		- "Snake Case"
-		  bv. `een_betekenisvolle_variable`
-		- persoonlijke nota: 
-		  ik persoonlijk gebruik voor alle variables de "snake_case"; voor functies gebruik ik "CamelNotation"; vor bibliotheken gebruik ik "AAH" = afkorting mat alles hoofdletters. Het laatste is niet python-standaardconventie, maar ik vind het iets beter om te lezen.
+- **Conventies**
+	- **Goede Naamgeving!**
+		- Kies altijd betekenisvolle, eenduidige variabelennamen, dit verbeterd de leesbaarheid van uw programma en spaart soms een commentaar.
+		- voorbeeld, vergelijk:
 		  ```python
-		  import numpy as NP
-		  def FindLog(nummer):
-		    return NP.log(3)
-		  log_van_2 = FindLog(2)
+		  rho = m/v  # welke v is dit nu?
+		  massadichtheid_kg_m3 = massa_kg / volume_m3
 		  ```
+		- *naamgevingsconventies:*
+			- "Camel Case"
+			  bv. `eenBetekenisvolleVariable`
+			- "Snake Case"
+			  bv. `een_betekenisvolle_variable`
+			- persoonlijke nota: 
+			  ik persoonlijk gebruik voor alle variables de "snake_case"; voor functies gebruik ik "CamelNotation"; vor bibliotheken gebruik ik "AAH" = afkorting mat alles hoofdletters. Het laatste is niet python-standaardconventie, maar ik vind het iets beter om te lezen.
+			  ```python
+			  import numpy as NP
+			  def FindLog(nummer):
+			    return NP.log(3)
+			  log_van_2 = FindLog(2)
+			  ```
+	- **Explicit Types:** Het is ook een goed idee om voor betere [[documentatie]] de types van je variabelen expliciet te maken:
+	  ```python
+	  greeting: str = "Hallo, wereld!"
+	  nummertjes: list[int] = [1, 2, 3, 4]
+	  ```
+	- **Private Variables:** Indien je binnen een [[klas]] een variabele definieerd die alleen maar van de klas en niet van buiten verandert mag worden, dan maak ze "private" met twee inleidende onderstreepjes:
+	  ```python
+	  class Robot(object):
+	      __creator = "FM"
+	      def GetCreator(self):
+	          return self.__creator
+	  ```
+	  De `GetCreator()`-[[methode]] is een voorbeeld van een "getter"; private variabelen veranderen doen we met een "setter"-functie. Dit is een gebruikelijke manier om zeker te gaan dat er niets fout gaat met je private variabelen.
