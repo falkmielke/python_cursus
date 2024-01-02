@@ -1,3 +1,4 @@
+alias:: FP, functioneel programmeren, lambda calculus
 tags:: uitbreiding
 
 - Functional programming is een programmeerstijl waarbij het proces van data (van input naar output) in de focus staat. Zoals de naam zegt gaat het over het uitvoeren van [[functies]].
@@ -9,7 +10,9 @@ tags:: uitbreiding
 	- **lazy evaluation**
 	- **recursie**
 	- **nested functions**
-	- **parallel processing**
+	- **function transformations**
+	- **currying**
+	- **decorators** (python)
 - verder lezen: https://nl.wikipedia.org/wiki/Functioneel_programmeren
 - FP en [[OOP]] zijn complementair, je mag ze allebei gebruiken!
 -

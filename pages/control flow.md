@@ -16,6 +16,7 @@ alias:: flow, controlestroom
 	- Als je die stappenplan volgt, van boven naar beneden, dan krijg je lekker eten.
 	- Noot dat sommige werkwoorden in de lijst [[functions]] zijn die er niet verder uitgelegd staan; bijvoorbeeld "*klop de melk met boter, eieren en honing*" zou iets raars kunnen zijn om te doen, als je niet weet wat "kloppen" in die context betekent.
 	- En je moet de stappen in de juiste volgorde uitvoeren: als je nog geen melkmengsel hebt, kan je het niet mengen; als je alles eerst laat rusten en dan mengt, zou er wel een pannenkoeken uit komen, maar misschien minder lekker.
+	- Een recept voor pannenkoeken is trouwens een voorbeeld van een [[algoritme]].
 -
 - **Flow**
 	- Dit is precies wat de computer doet zodra hij een programma krijgt.

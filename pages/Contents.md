@@ -26,6 +26,8 @@ alias:: inhoud
 	- [[string formatting]]
 	- [[regular expressions]]
 -
+- [[algorithm]]
+-
 - [[uitbreiding]]
 	- [[classes]], [[OOP]]
 	- [[functional programming]]
