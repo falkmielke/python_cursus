@@ -29,6 +29,10 @@ alias:: conditional, voorwaarden
 	- Noot dat we hier `if`, `elif` en `else` achter elkaar gebruiken ('als', 'anders-als' en 'anders'). Het woordje `elif` staat voor 'else if' en vraagt ook een boolean, terwijl `else` alles opvangt wat overblijft.
 	- `elif` en `else` zijn optioneel, je kan dus perfect een `if`-conditional met alleen maar één `if` opbouwen.
 	- Je kan meerdere `elif`s stapelen, maar de regels voor [[flow]] zijn ook hier geldig: de computer bekijkt de voorwaarden van boven naar beneden.
+	- In python bestaat er ook een handige ["ternary operator"](https://stackoverflow.com/questions/394809/does-python-have-a-ternary-conditional-operator) om een if/else conditie in één lijn aftewerken:
+	  ```python
+	  print('kaas' if is_vegetarisch else 'worst')
+	  ```
 -
 - **Meerdere Keuzes: "Switch" = Dicts** (voor gevoorderden)
 	- In sommige andere programmeertalen bestaat er een "switch" statement voor bijzonder lange reeksen van `if... elif...`.
