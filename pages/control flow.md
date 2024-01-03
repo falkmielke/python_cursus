@@ -43,6 +43,6 @@ alias:: flow, controlestroom
 -
 - **Onthouden**
     - Control Flow is de verkeersorganisatie van jouw programma! Let er goed op mee, en "let it flow!"
-    - ![image.png](../assets/chuttersnap-GH5ZA-8adZs-unsplash.jpg){:width 400} 
+    - ![image.jpg](../assets/chuttersnap-GH5ZA-8adZs-unsplash.jpg){:width 400} 
       Photo by <a href="https://unsplash.com/@chuttersnap?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">CHUTTERSNAP</a> on <a href="https://unsplash.com/photos/aerial-view-of-cars-passing-on-road-near-buildings-GH5ZA-8adZs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 -

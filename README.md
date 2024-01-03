@@ -1,6 +1,6 @@
 author:: Falk Mielke
 date:: January 2024
-alias:: index
+alias:: index, home
 
 - Welkom!
 - Dit is een "cursus" voor de Informaticawetenschappen / Python.

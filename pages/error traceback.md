@@ -1,8 +1,9 @@
 alias:: foutmelding, errors, traceback, bugs, debugging
 
 - ![image.jpg](../assets/error.jpg){:width 450} 
-  *Er was iets mis met deze tijger op 1/1/2024 in "Tierpark Stendal". Foto by Falk Mielke.*
-- *Shit happens.* Laat je niet teleurstellen.
+  *Er was iets mis met deze tijger op 1/1/2024 in "Tierpark Stendal". Een dierenarts zou moeten kijken wat er fout was (="error traceback"). Foto by Falk Mielke.*
+-
+- *... Shit happens.* Laat je niet teleurstellen!
 - Lees altijd goed de "error stack", of "traceback": je kan direct zien waar de fout ligt en welke type fout gebeurt is.
 -
 - **Fouten**
