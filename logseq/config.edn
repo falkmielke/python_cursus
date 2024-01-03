@@ -10,7 +10,7 @@
  ;; Available options:
  ;; - :now for NOW/LATER style (default)
  ;; - :todo for TODO/DOING style
- :preferred-workflow :now
+ :preferred-workflow :todo
 
  ;; Exclude directories/files.
  ;; Example usage:
@@ -89,7 +89,7 @@
  ;; Available options:
  ;;  - integer from 0 to 6 (Monday to Sunday)
  ;; Default value: 6 (Sunday)
- :start-of-week 6
+ :start-of-week 0
 
  ;; Specify a custom CSS import.
  ;; This option takes precedence over the local `logseq/custom.css` file.
@@ -111,7 +111,7 @@
  ;;  - `:four-spaces` as four spaces
  ;;  - `:two-spaces` as two spaces
  ;;  - `:tab` as a tab character (default)
- ;; :export/bullet-indentation :tab
+ :export/bullet-indentation :four-spaces
 
  ;; Publish all pages within the Graph
  ;; Regardless of whether individual pages have been marked as public.
@@ -133,6 +133,7 @@
  ;; :default-home {:page "Jun 3rd, 2021"}
  ;; 3. Set "home" as the home page and display multiple pages in the right sidebar:
  ;; :default-home {:page "home", :sidebar ["Page A" "Page B"]}
+ :default-home {:page "README", :sidebar ["Content"]}
 
  ;; Set the default location for storing notes.
  ;; Default value: "pages"
@@ -414,4 +415,5 @@
  :file/name-format :triple-lowbar
  :graph/settings {:excluded-pages? false
  :orphan-pages? true}
- :journal/page-title-format "yyyyMMdd"}
+ :journal/page-title-format "yyyyMMdd"
+ :publishing/all-pages-public? true}
