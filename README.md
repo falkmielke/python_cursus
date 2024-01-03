@@ -8,6 +8,9 @@ alias:: index
 - Je begint best bij de [[inhoud]], of met de zoek-functie boven links.
 -
 - TODO De cursus is gebaseerd op het programma "logseq" ( https://logseq.com ) en best daarin te zien.
+  :LOGBOOK:
+  CLOCK: [2024-01-03 Wed 13:39:46]--[2024-01-03 Wed 13:39:47] =>  00:00:01
+  :END:
   Je kan de graph downloaden en in logseq gebruiken, daarin kan je zelf verbeteren en aantekeningen toevoegen.
 - TODO Je kan verbeteringen ook uploaden: de cursus staat op een [[git]] repository:
   Alvast dank voor jullie pull requests!
