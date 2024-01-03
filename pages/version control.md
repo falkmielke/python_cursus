@@ -2,14 +2,14 @@ alias:: git, subversion, mercurial
 tags:: uitbreiding
 
 - Één van de meest gebruikte tools van professionele programmeurs is **version control**, bijvoorbeeld met `git`, `mercurial` of `subversion`. De meeste mensen gebruiken `git`.
-- `git` is een command line tool om de veranderingen van tekstbestanden op te slaan.
+- Bijvoorbeeld, `git` is een command line tool om de veranderingen van tekstbestanden op te slaan.
 - Dit heeft verschillende voordelen:
     - Je houdt een backup bij van tussenstappen in de ontwikkeling van een programma; bijvoorbeeld kan je foutieve aanpassingen terugdraaien.
     - Git is decentraal: je kan heel gemakkelijk kopieën van je code ergens anders opslaan en regelmatig synchroniseren, bv. op een USB-stick of op een webserver.
     - Je kan met een `branch` parallele versies van een programma bijhouden, wat onder meer bij de ontwikkeling van nieuwe features handig is.
 - Er zijn programma's met een gebruiker-interface, waarmee je gemakkelijker kan beginnen (bv. [git-cola](https://git-cola.github.io/), [sublime merge](https://www.sublimemerge.com/) en [magit](https://magit.vc)).
 - Omdat de versiecontrole alle *veranderingen* opslaat, is `git` niet efficient met binaire bestanden zoals afbeeldingen of word-documenten. Let op dat er alleen maar tekstbestanden in je repo getrackt zitten! (voor de andere is er een bijkomend programma, "git annex").
-- TODO Fun fact: deze cursus wordt ook in een `git` repo bewaard.
+- Fun fact: deze cursus wordt ook in een `git` repo bewaard: https://github.com/falkmielke/python_cursus.
 -
 -
 - **Repositories**
