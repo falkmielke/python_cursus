@@ -1,5 +1,5 @@
 alias:: content, Content, contents, inhoud
-title:: Contents
+title:: Inhoud
 
 - [[control flow]]
     - [[conditionals]]
