@@ -8,7 +8,7 @@ tags:: uitbreiding
 - Omvat ook meer ingewikkelde strategien zoals
     - **nested functions**
     - **first class functions**, **higher order functions**, **pure functions**
-    - **recursion**
+    - **[[recursion]]**
     - **function transformations**
     - **currying**
     - **decorators** (python)
