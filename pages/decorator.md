@@ -1,4 +1,6 @@
-- Een trucje uit de koffer van [[functional programming]].
+alias:: decorators
+
+- Een trucje uit de koffer van [[functional programming]], en een bijzonderheid van python.
 - Je moet een functie aanmaken die een functie binnen krijgt. Deze functie wordt in een "wrapper" gebruikt, en het resultaat kan eventjes aangepast worden.
 - Bijvoorbeeld kan je een functie-oproep omgeven met het meten van de loopduur:
   ``` python
@@ -27,3 +29,4 @@
   ```
 -
 - Een heel gedetailleerde introductie is [hier](https://realpython.com/primer-on-python-decorators/) te vinden.
+-

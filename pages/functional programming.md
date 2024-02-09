@@ -11,7 +11,7 @@ tags:: uitbreiding
     - **[[recursion]]**
     - **function transformations**
     - **currying**
-    - **decorators** (python)
+    - **[[decorators]]** (python)
 - verder lezen: zie [hier](https://nl.wikipedia.org/wiki/Functioneel_programmeren), een video [hier](https://www.youtube.com/watch?v=4B24vYj_vaI)
 - FP en [[OOP]] zijn complementair, je mag ze allebei gebruiken!
 - ![image.jpg](../assets/recursion.jpg){:width 300}

@@ -1,0 +1,2 @@
+- Een programmeerstrategie waarbij je een probleem in deelproblemen opsplitst die behersbaar zijn.
+- Voorbeeld: merge sort (zie [[sorteeralgoritmen]])

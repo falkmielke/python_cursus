@@ -27,9 +27,14 @@ title:: Inhoud
     - [[string formatting]]
     - [[regular expressions]]
 -
-- [[algorithm]]
+- [[algorithms]]
+    - [[complexity]]
+    - [[sorting algorithms]]
 -
 - [[uitbreiding]]
     - [[classes]], [[OOP]]
     - [[functional programming]]
+    - [[dynamic programming]]
     - [[version control]]
+    - [[decorators]]
+    - [[git]]
